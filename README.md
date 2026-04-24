@@ -11,6 +11,8 @@ npm run dev
 
 Open the Vite URL, click **Begin**, and allow pointer lock.
 
+`npm run build` compiles the PlayCanvas bundle and syncs `assets/game.js` plus `assets/game.css` for GitHub Pages. The root `index.html` intentionally loads those compiled files so `https://game2.bekulov.com` can run as a static site.
+
 ## Controls
 
 | Input | Action |
